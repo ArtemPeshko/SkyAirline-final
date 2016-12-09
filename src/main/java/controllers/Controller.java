@@ -314,7 +314,7 @@ public class Controller {
                 e.printStackTrace();
             }
             allxml.setText("Add all to XML");
-            implementation.setText("Added!");
+            implementation.setText("Added all!");
         });
 
         onexml.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> {
@@ -327,7 +327,7 @@ public class Controller {
                     e.printStackTrace();
                 }
                 onexml.setText("Add one to XML");
-                implementation.setText("Added!");
+                implementation.setText("Added one!");
             } else
                 System.out.println("Not chosen");
         });
