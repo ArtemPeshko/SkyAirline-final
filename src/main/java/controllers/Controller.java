@@ -30,7 +30,7 @@ import static main.MainRun.listPlane;
 
 public class Controller {
 
-   private static final String user = "root";
+    private static final String user = "root";
     private static final String pass = "";
     private static final String url = "jdbc:mysql://localhost:3306/mysql?useSSL=false";
     private DBconnect db = new DBconnect();
@@ -314,6 +314,7 @@ public class Controller {
                 e.printStackTrace();
             }
             allxml.setText("Add all to XML");
+            implementation.setText("Added!");
         });
 
         onexml.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> {
@@ -326,6 +327,7 @@ public class Controller {
                     e.printStackTrace();
                 }
                 onexml.setText("Add one to XML");
+                implementation.setText("Added!");
             } else
                 System.out.println("Not chosen");
         });
