@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AirPlaner>
+  <AirBus>
+    <number>828</number>
+    <speed>2641</speed>
+    <range>11106</range>
+    <weight>120190</weight>
+    <fuel>779</fuel>
+    <tank>1775</tank>
+    <passenger>14</passenger>
+    <passenger_seat>116</passenger_seat>
+    <FlyCost>980</FlyCost>
+  </AirBus>
+</AirPlaner>
